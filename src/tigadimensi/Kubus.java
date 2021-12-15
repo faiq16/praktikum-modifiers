@@ -7,7 +7,8 @@ public class Kubus extends Persegi{
         super(sisi);
     }
 
-    Double volume(){
+    public Double volume(){
         return super.luas() * lebar;
     }
 }
+// V=s*s*s
